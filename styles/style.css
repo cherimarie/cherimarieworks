@@ -42,7 +42,8 @@ footer a {
   margin: 0 1rem;
   font-size: 1.75rem; }
   footer a:hover {
-    text-shadow: 1px 1px 3px rgba(140, 191, 13, 0.25); }
+    text-shadow: 1px 1px 3px rgba(140, 191, 13, 0.25);
+    text-decoration: none; }
 
 h2 {
   background-color: rgba(140, 191, 13, 0.25);
