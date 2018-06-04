@@ -6,6 +6,8 @@ body {
   body a {
     color: #060510;
     text-decoration: none; }
+  body a.noticeable {
+    text-decoration: underline; }
   body a:hover, body a:focus {
     text-decoration: underline; }
 
@@ -63,7 +65,7 @@ h3, h4, p.dates {
 li {
   padding: .25rem 0; }
 
-.schools h3, .schools h4, .schools p {
+.compressed h3, .compressed h4, .compressed p {
   display: inline-block;
   margin: .5rem 0; }
 
