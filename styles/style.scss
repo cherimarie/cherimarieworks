@@ -13,10 +13,7 @@ body {
     color: $ink;
     text-decoration: none;
   }
-  a.noticeable {
-    text-decoration: underline;
-  }
-  a:hover, a:focus {
+  a:hover, a:focus, a.noticeable {
     text-decoration: underline;
   }
 }

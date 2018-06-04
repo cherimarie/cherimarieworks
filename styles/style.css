@@ -6,9 +6,7 @@ body {
   body a {
     color: #060510;
     text-decoration: none; }
-  body a.noticeable {
-    text-decoration: underline; }
-  body a:hover, body a:focus {
+  body a:hover, body a:focus, body a.noticeable {
     text-decoration: underline; }
 
 .wrapper {
