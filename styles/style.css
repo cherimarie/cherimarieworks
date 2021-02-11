@@ -52,10 +52,10 @@ h2 {
 
 h3 {
   margin-top: 1rem;
-  color: #2b8182; }
+   }
   h3 a, h3 a:visited {
     text-decoration: none;
-    color: #2b8182; }
+   }
 
 h3, h4, p.dates {
   margin: .5rem 0; }
@@ -74,8 +74,8 @@ li {
   display: initial; }
 
 @media print {
-  .screen-only {
-    display: none; }
+/*  .screen-only {
+    display: none; }*/
 
   .print-only {
     display: initial; }
