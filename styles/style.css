@@ -48,7 +48,9 @@ footer a {
 h2 {
   background-color: rgba(140, 191, 13, 0.25);
   width: 100%;
-  padding: .5rem; }
+  padding: .5rem;
+  margin-bottom: 5px;
+ }
 
 h3 {
   margin-top: 1rem;
@@ -68,17 +70,17 @@ li {
   margin: .5rem 0; }
 
 .print-only {
-  display: none; }
+  display: none !important; }
 
 .screen-only {
-  display: initial; }
+  display: initial !important; }
 
 @media print {
   .screen-only {
-    display: none; }
+    display: none !important; }
 
   .print-only {
-    display: initial; }
+    display: initial !important; }
 
   .break {
     page-break-before: always; }
