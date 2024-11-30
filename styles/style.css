@@ -65,6 +65,11 @@ span.dates, p.dates, a.dates {
   display: initial; }
 
 @media print {
+  a {
+    text-decoration: none;
+    underline: none;
+    color: #060510;
+  }
   .screen-only {
     display: none; }
 
